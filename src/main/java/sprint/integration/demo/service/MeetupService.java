@@ -12,6 +12,7 @@ import java.awt.print.Book;
 class JmsSender {
     @Autowired
     JmsTemplate jmsTemplate;
+
     public void sendMessage(Book contact)  {
         try {
             //convert book to JSON string
